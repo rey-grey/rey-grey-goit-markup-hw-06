@@ -118,7 +118,14 @@ body {
 
 
 }
+.contacts-link {
 
+}
+@media screen and (min-width:1156px) {
+    .contacts-link {
+        font-size: 16px;
+    }
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -228,6 +235,7 @@ body {
         display: flex;
         flex-direction: row;
         gap: 40px;
+        font-size: 16px;
         
     }
 }
@@ -297,6 +305,14 @@ body {
         letter-spacing: 0.04em;
 }
 }
+
+@media screen and (min-width:1156px) {
+    .contacts-link {
+        font-size: 16px;
+        
+    }
+}
+
 
 .contact-link:hover,
 .contact-link:focus {
@@ -415,6 +431,7 @@ gap: 24px;
       .hero {
        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/back-m-1.jpg");
     max-width: 1440px;
+    padding: 112px;
       }
     }
  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -426,7 +443,7 @@ gap: 24px;
 @media screen and (min-width: 1024px) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/back-big-1.jpg");
-
+padding: 188px;
     }
 }
 
