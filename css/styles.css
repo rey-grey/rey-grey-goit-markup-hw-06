@@ -936,6 +936,7 @@ width: calc(50% - 12px);
 @media screen and (min-width:1156px) {
 .footer {
 padding: 100px 0;
+justify-content: space-between;
 
 
 
@@ -959,8 +960,9 @@ padding: 100px 0;
         flex-direction: row; 
         align-items: baseline;
         flex-wrap: wrap;
-        
         margin-right: 0;
+        
+        
         
         
        
@@ -975,9 +977,12 @@ padding: 100px 0;
     .footer-content {
     display: flex;
     flex-direction: row;
+    
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
+    margin-right: 108px;
+    
     
     
 }
