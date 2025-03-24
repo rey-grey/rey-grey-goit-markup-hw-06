@@ -433,21 +433,31 @@ gap: 24px;
 
 
 .main-title {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 
 }
 
+@media screen and (min-width:768px) {
+.main-title {
+    font-size: 56px
+}
+}
+    
+
+
 .main-btn {
     display: block;
     min-width: 169px;
     height: 56px;
+    
     margin: auto;
     border: none;
     border-radius: 4px;
@@ -981,7 +991,8 @@ justify-content: space-between;
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
-    margin-right: 108px;
+    margin-left: 156px;
+    margin-right: 159px;
     
     
     
