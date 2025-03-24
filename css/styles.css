@@ -439,8 +439,9 @@ gap: 24px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
+        align-items: center;
         color: #fff;
-    max-width: 496px;
+    max-width: 216px;
     margin: 0 auto;
     margin-bottom: 48px;
 
@@ -448,7 +449,8 @@ gap: 24px;
 
 @media screen and (min-width:768px) {
 .main-title {
-    font-size: 56px
+    font-size: 56px;
+    max-width: 496px;
 }
 }
     
